@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "ostream": "cpp",
+        "vector": "cpp",
+        "iostream": "cpp",
+        "bitset": "cpp",
+        "random": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "string_view": "cpp",
+        "ranges": "cpp",
+        "span": "cpp"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "eslint.validate": ["javascript", "javascriptreact"],
+    "emmet.syntaxProfiles": {
+        "html": {
+            "inline_break": 1
+        }
+    }
+}
