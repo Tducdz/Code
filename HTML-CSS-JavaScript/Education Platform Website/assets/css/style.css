@@ -219,3 +219,122 @@ a {
     font-weight: 600;
     line-height: 30px; /* 166.667% */
 }
+
+.courses {
+    padding: 200px 0;
+}
+
+.courses .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses .heading h2 {
+    color: #171100;
+    font-family: Sen;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 3rem; /* 126.316% */
+    letter-spacing: -0.0475rem;
+}
+
+.courses .heading .text {
+    width: 28.625rem;
+}
+
+.courses .heading p {
+    margin-top: 1rem;
+    color: #5f5b53;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+}
+
+.courses .arrow a:nth-child(2) {
+    margin-left: 1rem;
+}
+
+.courses .courses-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.courses .course-item {
+    border-radius: 0.75rem;
+    border: 1px solid #e2dfda;
+    background: #fff;
+}
+
+.courses .course-item:hover {
+    border-radius: 0.75rem;
+    background: #fff;
+    border: none;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.courses .course-item img {
+    width: 23.125rem;
+    height: 17.375rem;
+}
+
+.courses .course-info {
+    width: 23.125rem;
+    padding: 1rem 1.37rem 2rem 1.37rem;
+}
+
+.courses .course-info h3 {
+    color: #171100;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.875rem; /* 166.667% */
+}
+
+.course-info .heading-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.course-info .rating {
+    display: flex;
+    align-items: center;
+}
+
+.course-info .rating img {
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.course-info .rating p {
+    display: inline-block;
+    color: #fea31b;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.course-info .rating .desc {
+    width: 20.375rem;
+}
+
+.course-info .buy {
+    display: flex;
+    margin-top: 22px;
+    justify-content: space-between;
+}
+
+.course-info .buy p {
+    color: #171100;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px; /* 166.667% */
+}
+
+.course-info .buy a {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.625rem; /* 185.714% */
+}
