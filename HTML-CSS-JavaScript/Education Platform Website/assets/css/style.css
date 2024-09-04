@@ -220,6 +220,8 @@ a {
     line-height: 30px; /* 166.667% */
 }
 
+/* ================== Course =================== */
+
 .courses {
     padding: 200px 0;
 }
@@ -337,4 +339,60 @@ a {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.625rem; /* 185.714% */
+}
+
+/* ===================== Testimonial ====================== */
+
+.testimonial {
+    background-color: #2e2100;
+    padding: 6rem 0;
+}
+
+.testimonial .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.testimonial .person-img {
+    border-radius: 50%;
+}
+
+.testimonial .person .name {
+    margin-top: 1.12rem;
+    margin-bottom: 0.25rem;
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.125rem; /* 141.667% */
+}
+
+.testimonial .person .desc {
+    margin-bottom: 1.75rem;
+    color: #bfbcb2;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.625rem; /* 185.714% */
+}
+
+.testimonial .comment {
+    position: relative;
+}
+
+.testimonial .comment .cmt {
+    width: 46.25rem;
+    color: #fff;
+    font-size: 1.625rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 2.5rem; /* 153.846% */
+}
+
+.testimonial .comment .icon-bracket {
+    position: absolute;
+    width: 1.875rem;
+    height: 1.75rem;
+    top: -24px;
+    left: -24px;
 }
