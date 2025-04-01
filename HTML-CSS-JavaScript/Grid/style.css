@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 300px;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.item {
+    margin-top: 16px;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    min-height: 180px;
+    line-height: 180px;
+    background-color: orange;
+}
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+}
